@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+/* navbar */
+h1{
+    color: #f50550;
+    text-align: center;
+}
+p{
+    text-align: center;
+    padding-top: 10px;
+    color:#cfd4d1;
+}
+
+.navbar,ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 20px 0px;
+   
+}
+
+.navbar ul li{
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+
+.navbar ul li a{
+   text-decoration:  none;
+   color: #fff;
+   margin: 26px 20px;
+   padding: 10px 18px;
+   border-radius: 10px;
+   display: inline-block;
+   transition: .4s ease;
+}
+
+.navbar ul li a:hover{
+    color: #eb1357;
+    box-shadow: 0 0 40px rgb(50, 6, 235);
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: white;
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: white;
+}
+
+.info span{
+    color: #eb1357;
+    display: inline-block;
+}
+.info span:hover{
+    text-shadow: 5px 5px 60px rgb(241, 30, 30);font-size: 150%;
+    transition: 0.5s;
+}
+
+.info a{
+    text-decoration:  none;
+    color: #fff;
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.info a:hover{
+    background: rgb(59,174,209);
+}
+
+.image{
+    width: 30%;
+    height: 40%;
+    position: absolute;
+    right: 100px;
+      margin: 10px 0 0 0;
+}
+
+.image img{
+    height: 300%;
+    width: 120%;
+    margin-top: 40px;
+}
+
+
+
+
+/* container */
+#container1{
+    height: 600px;
+    width: 100%;
+    margin: 0 10px;
+}
+div{
+    float: left;
+}
+
+.about{
+    height: 300px;
+    width: 300px;
+    margin: 0 10px;
+    position: relative;
+}
+
+.about img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+.content_about {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    background: rgba(0,0,0,0.8);
+    transition: 0.6s;
+    opacity: 0;
+}
+.content_about:hover{
+    opacity: 1; box-shadow: 0 0 40px rgb(50, 6, 235);
+}
+
+
+/* contact div */
+.contact{
+    height: 300px;
+    width: 300px;
+    margin: 10% 0 0 20px;
+    position: relative;
+
+}
+
+.contact ul {
+    display: flow-root;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    margin-top: 10%;
+    line-height: 2.0;
+}
+
+.content_contact{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    background: rgba(0,0,0,0.8);
+    transition: 0.6s;
+    opacity: 0;
+}
+.contact img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.content_contact:hover{
+    opacity: 1;box-shadow: 0 0 40px rgb(50, 6, 235);
+}
+
+
+
+
+/* skill div>>>>>>>>>>>>>>>>>>>> */
+
+.skill{
+    height: 300px;
+    width: 300px;
+    margin: 20% 0 0 20px;
+    position: relative;
+}
+.skill ul {
+    display: flow-root;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    color: whitesmoke;
+    margin-top: 10%;
+    line-height: 2.0;
+}
+
+.skill img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.content_skill {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    background: rgba(0,0,0,0.6);
+    transition: 0.6s;
+    opacity: 0;
+}
+.content_skill:hover{
+    opacity: 1; box-shadow: 0 0 40px rgb(50, 6, 235);
+
+}
+
+
+/* <<<<<<<<-----------------------footer------------------->>>>>>>>>>>>>>>>>>>>> */
+.footer{
+    margin-top: 40px;
+    padding-top: 40px;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    color:  #fff;
+    background-color:black;
+    
+    letter-spacing: 5px;
+}
+.footer i:hover{
+    color: #f50550;
+    box-shadow: 0 0 40px rgb(50, 6, 235);
+    border-radius: 15%;
+    transition: 0.4s;
+
+
+}
+
